@@ -1,0 +1,32 @@
+* {
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-family: Montserrat solid black;
+    line-height: 1em;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+#sun {
+    position: absolute;
+    width: 75px;
+    left: 80%;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size: 35px;
+}
+
+.forms {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.submit {
+    text-align: center;
+}

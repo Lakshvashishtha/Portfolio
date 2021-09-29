@@ -1,0 +1,281 @@
+    * {
+        color: black;
+        margin: 5px;
+        padding: 5px;
+        font-family: Montserrat solid black;
+        line-height: 1em;
+    }
+    
+    #moon {
+        position: absolute;
+        width: 75px;
+    }
+    
+    #sun {
+        visibility: hidden;
+        position: absolute;
+        width: 100px;
+        left: 90%;
+    }
+    
+    #Myself {
+        position: absolute;
+        width: 22%;
+        left: 50%;
+        top: 25%;
+        border-radius: 50%;
+    }
+    
+    .meta {
+        position: absolute;
+        top: 43%;
+        left: 22%;
+    }
+    
+    .meta h3 {
+        text-align: center;
+    }
+    
+    .Edu {
+        position: absolute;
+        top: 80%;
+        left: 10%;
+    }
+    
+    .Edu ul {
+        list-style-type: none;
+    }
+    
+    .skill {
+        position: absolute;
+        top: 80%;
+        left: 70%;
+    }
+    
+    .skill ul {
+        list-style-type: none;
+    }
+    
+    .Work {
+        position: absolute;
+        top: 103%;
+        left: 10%;
+    }
+    
+    .Work ul {
+        list-style-type: none;
+    }
+    
+    .topnav {
+        position: absolute;
+        left: 80%;
+    }
+    
+    .topnav ul {
+        list-style-type: none;
+    }
+    
+    #ig {
+        position: absolute;
+        top: 135%;
+        width: 60px;
+        height: 60px;
+        left: 20%;
+    }
+    
+    #fb {
+        position: absolute;
+        top: 135%;
+        width: 60px;
+        height: 60px;
+        left: 40%;
+    }
+    
+    #ln {
+        position: absolute;
+        top: 135%;
+        width: 60px;
+        height: 60px;
+        left: 60%;
+    }
+    
+    h4 {
+        position: absolute;
+        top: 148%;
+        left: 40%;
+    }
+    
+    @media only screen and (min-width: 400px) {
+        .meta {
+            top: 40%;
+            left: 20%;
+        }
+        .Edu {
+            top: 60%;
+            left: 5%;
+        }
+        .Work {
+            top: 85%;
+            left: 5%;
+        }
+        .skill {
+            top: 60%;
+            left: 90%;
+        }
+    }
+    
+    @media only screen and (min-width: 450px) {
+        .meta {
+            top: 42%;
+        }
+    }
+    
+    @media only screen and (min-width: 500px) {
+        .meta {
+            top: 43%;
+            left: 20%;
+        }
+        .Edu {
+            top: 60%;
+            left: 2%;
+        }
+        .Work {
+            top: 85%;
+            left: 2%;
+        }
+        .skill {
+            top: 60%;
+            left: 88%;
+        }
+    }
+    
+    @media only screen and (min-width: 535px) {
+        .meta {
+            top: 50%;
+            left: 20%;
+        }
+        .Edu {
+            top: 65%;
+            left: 2%;
+        }
+        .Work {
+            top: 90%;
+            left: 2%;
+        }
+        .skill {
+            top: 65%;
+            left: 90%;
+        }
+    }
+    
+    @media only screen and (min-width: 658px) {
+        .Edu {
+            left: 0%;
+        }
+        .Work {
+            left: -1%;
+        }
+    }
+    
+    @media only screen and (min-width: 700px) {
+        .meta {
+            top: 30%;
+            left: 0%;
+            font-size: 14px;
+        }
+        .Edu {
+            top: 55%;
+            left: 2%;
+        }
+        .Work {
+            top: 80%;
+            left: 2%;
+        }
+        .skill {
+            top: 55%;
+            left: 90%;
+        }
+    }
+    
+    @media only screen and (min-width: 750px) {
+        .meta {
+            left: 3%;
+        }
+        .skill {
+            left: 85%;
+        }
+    }
+    
+    @media only screen and (min-width: 800px) {
+        .meta {
+            left: 40%;
+            left: 5%;
+        }
+        .skill {
+            left: 80%;
+        }
+    }
+    
+    @media only screen and (min-width: 850px) {
+        .meta {
+            top: 35%;
+            left: 5%;
+        }
+        .Edu {
+            top: 70%;
+            left: 2%;
+        }
+        .Work {
+            top: 90%;
+            left: 2%;
+        }
+        .skill {
+            top: 70%;
+            left: 80%;
+        }
+    }
+    
+    @media only screen and (min-width: 900px) {
+        .meta {
+            left: 10%;
+        }
+        .skill {
+            left: 75%;
+        }
+    }
+    
+    @media only screen and (min-width: 1000px) {
+        .meta {
+            left: 15%;
+        }
+        .skill {
+            left: 70%;
+        }
+    }
+    
+    @media only screen and (min-width: 1050px) {
+        .meta {
+            top: 40%;
+        }
+        .skill {
+            left: 65%;
+        }
+    }
+    
+    @media only screen and (min-width: 1150px) {
+        .meta {
+            left: 18%;
+        }
+    }
+    
+    @media only screen and (min-width: 1350px) {
+        .meta {
+            left: 23%;
+        }
+        .Edu {
+            left: 15%;
+        }
+        .Work {
+            left: 15%;
+        }
+    }
